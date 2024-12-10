@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Site do Panda" description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+<h1>Contato</h1>
+<h3>
+	Como me contatar
+</h3>
+<p>
+	<a href="https://discord.com">Discord</a>: not_megpoid_official
+</p>
+<p>
+	<a href="https://github.com">Github</a>: Pandinhaa11
+</p>
+<p>
+	<a href="https://pretendo.network">Pretendo Network</a>(Wii U e Nintendo 3DS): 4135 - 7623 - 4783
+</p>
+<p>
+	<a href="https://escargot.chat">Escargot.chat</a> e <a href="https://nina.chat">NINA.chat</a>(MSN Messenger e AIM): PandaUwU@escargot.chat
+</p>
+<p>
+	<code>Mais em breve!!! ;)</code>
+</p>
+
+	
+		</main>
+		<Footer />
+	</body>
+</html>
+
